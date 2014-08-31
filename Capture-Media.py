@@ -76,6 +76,4 @@ class TransferRequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):
         pass  # suppresses messages sent to the console
 
 if __name__ == "__main__":
-
-if __name__ == "__main__":
     CaptureMedia()
