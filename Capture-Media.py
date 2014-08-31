@@ -72,5 +72,10 @@ class TransferRequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):
         ui.delay(gCaptureMedia.close, 0)
         ui.delay(self.server.shutdown, 0)
 
+    def log_message(self, format, *args):
+        pass  # suppresses messages sent to the console
+
+if __name__ == "__main__":
+
 if __name__ == "__main__":
     CaptureMedia()
